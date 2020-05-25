@@ -1,0 +1,97 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 90vw;
+  opacity: 90%;
+}
+.btn.btn-raised.btn-primary {
+  background-color: #158359;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  color: aliceblue;
+}
+header {
+  background-color: #114a52;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+header h1 {
+  font-size: 30px;
+  margin: 0;
+}
+.error {
+  background-color: #fbe9e7;
+  border: 1px solid #f4511e;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f4511e;
+}
+.correcto {
+  background-color: rgb(211, 249, 187);
+  border: 1px solid rgb(50, 167, 0);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(4, 150, 50);
+}
+.error p {
+  margin: 0;
+}
+#contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+}
+.contenido-formulario {
+  text-align: center;
+  width: 70%;
+  padding: 1rem;
+}
+
+.contenido-formulario * {
+  margin-bottom: 1rem;
+}
+
+.contenido-formulario select {
+  margin-right: 1rem;
+}
+#cargando {
+  text-align: center;
+}
+#cargando img {
+  display: none;
+  margin: 0 auto;
+}
+
+#resultado div {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+#resultado div p {
+  margin-bottom: 0;
+}
+#resultado div p.header {
+  background-color: #26c6da;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
