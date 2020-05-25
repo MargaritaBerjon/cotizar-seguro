@@ -24,7 +24,7 @@ class Insurance {
     // 2 = asiatico 1.05
     // 3 = europeo 2
     let quantity;
-    const basePrice = 2000;
+    const basePrice = 500;
 
     switch (this.brand) {
       case '1':
@@ -92,7 +92,7 @@ class Interface {
     <p>Marca: ${brand}</p>
     <p>Año: ${insurance.year}</p>
     <p>Tipo: ${insurance.type}</p>
-    <p>Precio: ${quantity} €</p>`;
+    <p>Precio: ${quantity} €/año</p>`;
     const spinner = document.querySelector('#cargando img');
     spinner.style.display = 'block';
     setTimeout(function () {
