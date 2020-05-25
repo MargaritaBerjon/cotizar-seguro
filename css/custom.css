@@ -95,3 +95,10 @@ header h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+@media all and (max-width: 470px) {
+  fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+}

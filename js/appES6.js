@@ -89,10 +89,10 @@ class Interface {
     }
     const div = document.createElement('div');
     div.innerHTML = `<p class='header'>Tu seguro</p>
-<p>Marca: ${brand}</p>
-<p>Año: ${insurance.year}</p>
-<p>Tipo: ${insurance.type}</p>
-<p>Precio: ${quantity} €</p>`;
+    <p>Marca: ${brand}</p>
+    <p>Año: ${insurance.year}</p>
+    <p>Tipo: ${insurance.type}</p>
+    <p>Precio: ${quantity} €</p>`;
     const spinner = document.querySelector('#cargando img');
     spinner.style.display = 'block';
     setTimeout(function () {
